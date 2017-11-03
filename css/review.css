@@ -75,7 +75,7 @@ body {
 }
 .my-3 {
   height: 250px;
-  background-image: url('../img/Skype-mom.jpg');
+  background-image: url('../img/gal1.jpg');
   border-radius: 0px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -97,6 +97,7 @@ body {
 }
 
 /* CARDS */
+
 /* left-card */
 
 .card {

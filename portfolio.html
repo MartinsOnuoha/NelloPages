@@ -15,11 +15,10 @@
     <link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- Custom styles for this template -->
     <link href="css/profile.css" rel="stylesheet">
-
   </head>
 
-  <body>
 
+  <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container" >
@@ -50,12 +49,12 @@
           <div class="profile-text">
             <h1 id="username">Ekpe Samuel</h1>
             <h5 id="talent">Make-Up.</h5>
-            <i class="fa fa-map-marker fa-lg text-white" aria-hidden="true"></i><span class="text-white" style="padding-left: 5px;">Lagos, Nigeria</span>
+            <i class="fa fa-map-marker fa-lg text-white" aria-hidden="true"></i><span class="location text-white" style="padding-left: 5px;">Lagos, Nigeria</span>
           </div>
           </section>
 
         <!-- <a href="#" class="btn btn-primary btn-lg">Call to action!</a> -->
-        <a href="#" class="header-btn btn btn-primary float-right message"><i class="fa fa-commenting fa-lg" aria-hidden="true"></i><span>Message</span></a>
+        <a href="#" class="header-btn btn btn-primary float-right message"><i class="fa fa-commenting fa-lg" aria-hidden="true"></i><span style="margin-left: 5px;">Message</span></a>
         <a href="#" class="header-btn btn btn-primary float-right" style="margin-right: 4px;">Hire</a>
 
       </header>
@@ -79,47 +78,64 @@
         <div class="col-lg-8 col-sm-8 main-content">
           <!-- Title -->
 
-          <h3 class="mt-1"><small>Videos</small></h3>
+          <h3 class="text-muted mt-1"><small>Showcase Videos</small></h3>
           <hr>
           <!-- Preview video -->
         <div class="row">
           <div class="col-sm-8">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rjbOReWvepk" allowfullscreen></iframe>
+            <div class="holder">
+             <iframe src="https://www.youtube.com/embed/mN0zPOpADL4?" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+              <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rjbOReWvepk" allowfullscreen></iframe> --> 
+              <div class="bar">
+                <div class="align-content-end text-right" style="margin-right: 20px; margin-top: 10px;">
+                  <a>
+                  <i class="fa fa-heart fa-lg" aria-hidden="true"></i>
+                  </a>
+                  <span class="likes text-white">300</span>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
 
           <div class="col-sm-4">
               <div class="media mt-0">
-                <img class="d-flex mr-3 rounded-circle" src="./img/profile1.jpg" alt="">
+                <img class="profile-images d-flex mr-3 rounded-circle" src="./img/profile1.jpg" alt="">
                 <div class="media-body text-muted">
                   <h6 class="mt-2"><strong>John Doe</strong></h6>
-                  Awesome animation!
+                  <div class="desc">22 hours ago</div>
+                  <div class="comments">Awesome animation! he puts the perfect touch to everything.</div>
                 </div>
               </div>
 <br />
               <div class="media mt-0">
-                <img class="d-flex mr-3 rounded-circle" src="./img/gal1.jpg" alt="">
+                <img class="profile-images d-flex mr-3 rounded-circle" src="./img/gal1.jpg" alt="">
                 <div class="media-body text-muted">
                   <h6 class="mt-2"><strong>John Doe</strong></h6>
-                  Awesome animation!
+                  <div class="desc">22 hours ago</div>
+                  <div class="comments">Awesome animation! he puts the perfect touch to everything.</div>
                 </div>
               </div>
 <br />
               <div class="media mt-0">
-                <img class="d-flex mr-3 rounded-circle" src="./img/profile3.jpg" alt="">
+                <img class="profile-images d-flex mr-3 rounded-circle" src="./img/profile3.jpg" alt="">
                 <div class="media-body text-muted">
                   <h6 class="mt-2"><strong>John Doe</strong></h6>
-                  Awesome animation!
+                  <div class="desc">22 hours ago</div>
+                  <div class="comments">Awesome animation! he puts the perfect touch to everything.</div>
                 </div>
               </div>
 <hr>
+            <section class="comment-section">
               <div class="media mt-0">
-                <img class="d-flex mr-3 rounded-circle" src="./img/studio.jpg" alt="">
+                <img class="profile-images d-flex mr-3 rounded-circle" src="./img/studio.jpg" alt="">
                 <div class="media-body text-muted">
                   <input type="text" class="form-control" placeholder="Write a comment" aria-label="Username" aria-describedby="sizing-addon2">
                 </div>
               </div>
+            </section>
           </div>
         </div>
 
@@ -134,32 +150,8 @@
          <img src="./img/tailor.jpg" class="img-fluid main-img" alt="...">
        </div>
       </div>
-<!-- 
-      <div class="row justify-content-center mt-2 main-row">
-       <div class="col-sm-12 justify-content-center">
-         <img src="img/see.jpg" class="img-fluid main-img" alt="...">
-         <img src="img/code.jpg" class="img-fluid main-img" alt="...">
-         <img src="img/citizen.jpg" class="img-fluid main-img" alt="...">
-         <img src="img/citizen.jpg" class="img-fluid main-img" alt="...">
-         <img src="img/citizen.jpg" class="img-fluid main-img" alt="...">
-       </div>
-      </div> -->
 
           <hr>
-
-          
-          <!-- Comments Form -->
-<!--           <div class="card my-4">
-            <h5 class="card-header">Leave a Comment:</h5>
-            <div class="card-body">
-              <form>
-                <div class="form-group">
-                  <textarea class="form-control" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Send</button>
-              </form>
-            </div>
-          </div> -->
         </div>
 
         <!-- Sidebar Widgets Column -->
